@@ -41,7 +41,7 @@ function onZoneIn(player,prevZone)
 	end
 
 	if (prevZone == 109) then
-		if (player:getQuestStatus(BASTOK, BLADE_OF_DARKNESS) == QUEST_ACCEPTED and player:getVar("ChaosbringerKills") >= 100) then
+		if (player:getQuestStatus(BASTOK, BLADE_OF_DARKNESS) == QUEST_ACCEPTED and player:getVar("ChaosbringerKills") >= 25) then
 			cs = 0x0079;
 		elseif (player:getCurrentMission(BASTOK) == THE_FOUR_MUSKETEERS and player:getVar("MissionStatus") == 1) then
 			cs = 0x0078;
