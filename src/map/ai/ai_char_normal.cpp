@@ -348,7 +348,7 @@ void CAICharNormal::ActionEngage()
                     }
 
                     m_ActionType = ACTION_ATTACK;
-                    m_LastMeleeTime = m_Tick - m_PChar->m_Weapons[SLOT_MAIN]->getDelay() + 1500;
+                    m_LastMeleeTime = m_Tick - m_PChar->m_Weapons[SLOT_MAIN]->getDelay() + 1200;
 
                     m_PChar->animation = ANIMATION_ATTACK;
                     m_PChar->PLatentEffectContainer->CheckLatentsWeaponDraw(true);
