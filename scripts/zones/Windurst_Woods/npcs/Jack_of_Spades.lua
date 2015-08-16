@@ -49,14 +49,12 @@ function onEventFinish(player,csid,option)
 --printf("RESULT: %u",option);
 	if (csid == 0x271a) then
 		player:tradeComplete();
-		
 		player:addGil(GIL_RATE*200000);
 		player:addKeyItem(AIRSHIP_PASS);
 		player:addKeyItem(AIRSHIP_PASS_FOR_KAZHAM);
 		player:messageSpecial(KEYITEM_OBTAINED,AIRSHIP_PASS);
 		player:messageSpecial(KEYITEM_OBTAINED,AIRSHIP_PASS_FOR_KAZHAM);
 		player:messageSpecial(GIL_OBTAINED,GIL_RATE*200000);
-		player:unlockJob(8);
 		player:addTitle(DARK_SIDER);
 		player:setVar("ZeruhnMines_Zeid_CS", 0);
 		player:messageSpecial(YOU_CAN_NOW_BECOME_A_DARK_KNIGHT);
@@ -89,6 +87,7 @@ function onEventFinish(player,csid,option)
 			player:setVar("IsacioElderMemVar", 0);
 			player:messageSpecial(SUBJOB_UNLOCKED);
 			player:completeQuest(OTHER_AREAS, ELDER_MEMORIES);
+		
 	end 
 end;
 
