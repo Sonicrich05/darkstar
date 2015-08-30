@@ -179,8 +179,8 @@ INSERT INTO `mob_skill` VALUES (48,178,48,'Photosynthesis',0,7.0,2000,1500,1,0,0
 INSERT INTO `mob_skill` VALUES (49,178,49,'Leaf_Dagger',0,7.0,2000,1500,4,0,0,0);
 INSERT INTO `mob_skill` VALUES (44,178,44,'Head_Butt',0,7.0,1500,1500,4,0,0,0); -- occasional knockback..
 INSERT INTO `mob_skill` VALUES (50,178,50,'Scream',1,15.0,2000,1500,4,0,0,0);
+INSERT INTO `mob_skill` VALUES (1954,496,1603,'Petal_Pirouette',1,15.0,2000,1500,4,0,0,0); -- Only used by Chaneque
 
--- INSERT INTO `mob_skill` VALUES (1954,?,?,'Petal_Pirouette',1,15.0,2000,1500,4,0,0,0); -- Only used by certain NM
 -- INSERT INTO `mob_skill` VALUES (2154,?,?,'Demonic_Flower',0,7.0,2000,1500,4,0,0,0); -- Only used by certain NM
 -- INSERT INTO `mob_skill` VALUES (2345,?,?,'Petalback_Spin',1,15.0,2000,1500,4,0,0,0); -- Only used by certain NM
 -- INSERT INTO `mob_skill` VALUES (2343,?,?,'Tepal_Twist',1,15.0,2000,1500,4,0,0,0); -- Only used by certain NM
@@ -444,6 +444,9 @@ INSERT INTO `mob_skill` VALUES (115,174,115,'Plague_Breath',4,10.0,2000,1500,4,0
 -- INSERT INTO `mob_skill` VALUES (114,?,114,'Baleful_Gaze',0,10.0,2000,2000,4,0,0,0);
 -- INSERT INTO `mob_skill` VALUES (115,?,115,'Plague_Breath',4,10.0,2000,1500,4,0,0,0);
 -- INSERT INTO `mob_skill` VALUES (365,?,969,'Snowball',1,11.0,2000,1500,4,0,0,0); -- only in colder regions
+
+-- Highlander Lizard
+INSERT INTO `mob_skill` VALUES (115,438,115,'Plague_Breath',4,10.0,2000,1500,4,0,0,0);
 
 -- Raptor (desert areas)
 INSERT INTO `mob_skill` VALUES (118,210,118,'Ripper_Fang',0,7.0,2000,1500,4,0,0,0);
@@ -1128,6 +1131,9 @@ INSERT INTO `mob_skill` VALUES (426,135,426,'Crystal_Weapon_Wind',0,15.0,2000,15
 INSERT INTO `mob_skill` VALUES (429,216,429,'Sprout_Spin',1,15.0,2000,1500,4,0,0,0);
 INSERT INTO `mob_skill` VALUES (430,216,430,'Slumber_Powder',1,10.0,2000,1500,4,0,0,0);
 INSERT INTO `mob_skill` VALUES (431,216,431,'Sprout_Smack',0,7.0,2000,1500,4,0,0,0);
+
+-- Ghillie Dhu
+INSERT INTO `mob_skill` VALUES (429,437,429,'Sprout_Spin',1,15.0,2000,1500,4,0,0,0);
 
 -- Cardians
 INSERT INTO `mob_skill` VALUES (427,61,427,'Bludgeon',0,7.0,2000,1500,4,0,0,0);
@@ -2093,7 +2099,7 @@ INSERT INTO `mob_skill` VALUES (1903,131,1568,'Pandemic_Nip',0,7.0,2000,1500,4,0
 INSERT INTO `mob_skill` VALUES (1904,131,1569,'Bombilation',1,15.0,2000,1500,4,0,0,0);
 INSERT INTO `mob_skill` VALUES (1905,131,1570,'Cimicine_Discharge',0,10.0,2000,1000,4,0,0,0);
 
--- INSERT INTO `mob_skill` VALUES (1906,131,1571,'Emetic_Discharge',0,7.0,2000,1000,4,0,0,0); -- Only used by Bloodlapper and Brummbar.
+INSERT INTO `mob_skill` VALUES (1906,436,1571,'Emetic_Discharge',0,7.0,2000,1000,4,0,0,0); -- Only used by Bloodlapper and Brummbar.
 
 -- Limule
 INSERT INTO `mob_skill` VALUES (2308,173,1796,'Blazing_Bound',1,21.0,2000,1500,4,0,0,0);
@@ -2476,7 +2482,7 @@ INSERT INTO `mob_skill` VALUES (1034,392,654,'Spike_Flail',1,23.0,2000,2000,4,8,
 INSERT INTO `mob_skill` VALUES (1035,392,962,'Glacial_Breath',4,18.0,2000,1500,4,8,0,0);
 INSERT INTO `mob_skill` VALUES (1036,392,656,'Touchdown',1,6.0,2000,0,4,8,0,0);
 INSERT INTO `mob_skill` VALUES (1037,392,964,'Sleet_Blast',1,23.0,2000,2000,4,8,0,0);
-INSERT INTO `mob_skill` VALUES (1038,392,653,'Gregale_Wing_Air',1,30.0,2000,1500,4,8,0,0);
+INSERT INTO `mob_skill` VALUES (1038,392,658,'Gregale_Wing_Air',1,30.0,2000,1500,4,8,0,0);
 INSERT INTO `mob_skill` VALUES (1039,392,659,'Absolute_Terror',0,18.0,4000,1500,4,8,0,0);
 INSERT INTO `mob_skill` VALUES (1040,392,660,'Horrid_Roar_3',0,18.0,4000,1500,4,8,0,0);
 INSERT INTO `mob_skill` VALUES (439,392,432,'Blood_Weapon',0,18.0,2000,0,1,0,30,0);
